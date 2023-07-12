@@ -3,3 +3,27 @@
 ::after {
   box-sizing: border-box;
 }
+html {
+  font-family: sans-serif;
+  animation: alternate-reverse;
+  align-self: center;
+}
+body {
+  margin: 0;
+}
+.file__1 {
+  background-color: #299988;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.menu__nav {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  gap: 0.5rem;
+  align-items: flex-end;
+}
+.file__2 {
+  background-color: #44a080;
+}
