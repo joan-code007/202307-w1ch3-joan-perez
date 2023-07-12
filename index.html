@@ -5,6 +5,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+  <link rel="stylesheet" href="style/styles.css">
   <title>Lista de la compra</title>
 </head>
 
@@ -13,8 +14,8 @@
     <header>
       <h1>Lista de la compra</h1>
     </header>
-    <nav class="menu__nav">
-      <ul>
+    <nav>
+      <ul class="menu__nav">
         <li>Principal</li>
         <li>Lista</li>
         <li>Acerca de</li>
@@ -22,9 +23,19 @@
     </nav>
   </section>
   <section class="file__2">
-    <button class="button_less" type="submit"></button>
+    <button class="button__less" type="submit">-</button>
     <span class="summary">2/3 comprados</span>
   </section>
+  <main>
+    <h2>Añadir artículo</h2>
+    <form>
+      <label>Nombre:</label>
+      <input type="text">
+      <label>Precio</label>
+      <input type="text">
+    </form>
+    <button class="button__add">Añadir</button>
+  </main>
 
 </body>
 
