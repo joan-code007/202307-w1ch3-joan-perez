@@ -39,3 +39,7 @@ main {
   background-color: #ffc844;
   gap: 10px;
 }
+.button__add {
+  background-color: #299988;
+  color: white;
+}
