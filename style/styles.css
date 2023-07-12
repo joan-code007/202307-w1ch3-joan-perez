@@ -15,7 +15,7 @@ body {
   background-color: #299988;
   display: flex;
   flex-direction: row;
-  justify-content: flex-start;
+  justify-content: center;
 }
 .menu__nav {
   display: flex;
@@ -26,4 +26,16 @@ body {
 }
 .file__2 {
   background-color: #44a080;
+}
+.button__less {
+  border-radius: 50%;
+}
+.summary {
+  display: flex;
+  flex-direction: row;
+  justify-content: end;
+}
+main {
+  background-color: #ffc844;
+  gap: 10px;
 }
